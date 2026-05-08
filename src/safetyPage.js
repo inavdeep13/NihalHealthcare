@@ -1,0 +1,37 @@
+import './style.css'
+
+import { navbar } from './components/navbar/navbar'
+
+import { footer } from './components/footer/footer'
+
+import { productData } from './components/product-detail/productData'
+
+import { productHero } from './components/product-detail/productHero'
+
+import { productSpecifications } from './components/product-detail/productSpecifications'
+
+import { productSizes } from './components/product-detail/productSizes'
+
+import { productRegulatory } from './components/product-detail/productRegulatory'
+
+const product = productData.safety
+
+document.querySelector('#app').innerHTML = `
+
+  ${navbar()}
+
+  <main class="pt-20">
+
+    ${productHero(product)}
+
+    ${productSpecifications(product)}
+
+    ${productSizes(product)}
+
+    ${productRegulatory(product)}
+
+  </main>
+
+  ${footer()}
+
+`

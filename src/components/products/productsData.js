@@ -9,23 +9,25 @@ export const productsData = [
     title: "Disposable Syringes",
     desc: "High precision sterile disposable syringes manufactured with advanced healthcare safety standards.",
     image: product1,
-    link: "/products/disposable-syringes.html",
+    link: "./disposable-syringes.html",
   },
 
+  
   {
     id: 2,
-    title: "Safety Syringes",
-    desc: "Engineered safety syringes designed for infection prevention and safe medical handling.",
-    image: product2,
-    link: "/products/safety-syringes.html",
+    title: "Insulin Syringes",
+    desc: "Reliable insulin syringes delivering precision dosage and enhanced patient comfort.",
+    image: product3,
+    link: "./insulin-syringes.html",
   },
 
   {
     id: 3,
-    title: "Insulin Syringes",
-    desc: "Reliable insulin syringes delivering precision dosage and enhanced patient comfort.",
-    image: product3,
-    link: "/products/insulin-syringes.html",
+    title: "Safety Syringes",
+    desc: "Engineered safety syringes designed for infection prevention and safe medical handling.",
+    image: product2,
+    link: "./safety-syringes.html",
   },
+
 
 ]

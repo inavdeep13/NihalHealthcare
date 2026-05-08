@@ -29,6 +29,8 @@ export const navbar = () => {
 
               <li class="relative group">
 
+              <a href = "./products.html">
+
                 <button
                   class="flex items-center gap-2 text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all duration-300"
                 >
@@ -49,6 +51,7 @@ export const navbar = () => {
                   </svg>
 
                 </button>
+                </a>
 
                 <div
                   class="absolute left-0 top-[140%] invisible opacity-0 translate-y-4 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 bg-white rounded-3xl border border-slate-200 shadow-2xl min-w-[320px] p-6"
@@ -57,19 +60,19 @@ export const navbar = () => {
                   <ul class="space-y-5">
 
                     <li>
-                      <a href="#" class="block text-slate-700 hover:text-blue-600 transition-all">
+                      <a href="./disposable-syringes.html" class="block text-slate-700 hover:text-blue-600 transition-all">
                         Disposable Syringes
                       </a>
                     </li>
 
                     <li>
-                      <a href="#" class="block text-slate-700 hover:text-blue-600 transition-all">
-                        Auto Disable Syringes
+                      <a href="./insulin-syringes.html" class="block text-slate-700 hover:text-blue-600 transition-all">
+                        Insuline Syringes
                       </a>
                     </li>
 
                     <li>
-                      <a href="#" class="block text-slate-700 hover:text-blue-600 transition-all">
+                      <a href="./safety-syringes.html" class="block text-slate-700 hover:text-blue-600 transition-all">
                         Safety Syringes
                       </a>
                     </li>
@@ -170,9 +173,11 @@ export const navbar = () => {
 
             <li>
 
+            <a href = "./products.html">  
               <p class="text-lg font-bold text-slate-900 mb-4">
                 Our Products
               </p>
+            </a>
 
               <ul class="flex flex-col gap-4 pl-4 border-l border-slate-200">
 

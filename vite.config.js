@@ -13,9 +13,20 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+
         contact: resolve(__dirname, 'contact.html'),
+
         history: resolve(__dirname, 'history.html'),
+
         certifications: resolve(__dirname, 'certifications.html'),
+
+        products: resolve(__dirname, 'products.html'),
+
+        disposable: resolve(__dirname, 'disposable-syringes.html'),
+
+        safety: resolve(__dirname, 'safety-syringes.html'),
+
+        insulin: resolve(__dirname, 'insulin-syringes.html'),
       },
     },
   },
