@@ -6,7 +6,7 @@
 
         <div class="flex items-center justify-between h-20">
 
-          <a href="/" class="flex items-center">
+          <a href="./index.html" class="flex items-center">
             <img 
               src="${e}" 
               alt="Nihal Healthcare Logo"
@@ -76,7 +76,7 @@
               </li>
 
               <li>
-                <a href="/certifications.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                <a href="./certifications.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   Certificates
                 </a>
               </li>
@@ -88,14 +88,14 @@
               </li> -->
 
               <li>
-                <a href="/history.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                <a href="./history.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   History
                 </a>
               </li>
 
               <li>
                 <a
-                  href="/contact.html"
+                  href="./contact.html"
                   class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">                
                   Contact Us
                 </a>
