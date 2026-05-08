@@ -1,4 +1,4 @@
-import{i as e,n as t,t as n}from"./navbarFunctionality-B0ETpjYs.js";var r=()=>`
+import{t as e}from"./navbar-DT3jM947.js";import{t}from"./navbarAnimation-CrrQq9Zh.js";import{t as n}from"./navbarFunctionality-NzYVoFzi.js";var r=()=>`
 
     <section class="contact-page pt-36 pb-20 md:pb-24 lg:pb-28 bg-stone-50 overflow-hidden">
 

@@ -1,0 +1,1 @@
+var e=`/NihalHealthcare/assets/product-1-Dngi2HM9.jpg`,t=`/NihalHealthcare/assets/product-2-DpwqvLw2.jpg`,n=`/NihalHealthcare/assets/product-3-CEuljiS7.jpg`;export{t as n,e as r,n as t};
