@@ -1,14 +1,14 @@
-import '../style.css'
+import '../../style.css'
 
-import { navbar } from '../components/navbar/navbar'
+import { navbar } from '../navbar/navbar'
 
-import { footer } from '../components/footer/footer'
+import { footer } from '../footer/footer'
 
-import { blogsData } from '../components/blogs/blogsData'
+import { blogsData } from '../blogs/blogsData'
 
-import { singleBlogHero } from '../components/blogs/singleBlogHero'
+import { singleBlogHero } from '../blogs/singleBlogHero'
 
-import { singleBlogContent } from '../components/blogs/singleBlogContent'
+import { singleBlogContent } from '../blogs/singleBlogContent'
 
 const blog = blogsData[0]
 

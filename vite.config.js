@@ -22,6 +22,12 @@ export default defineConfig({
 
         blogs: resolve(__dirname, 'blogs.html'),
 
+        sterileManufacturing: resolve(__dirname, 'sterile-manufacturing.html'),
+
+        healthcareInnovation: resolve(__dirname, 'healthcare-innovation.html'),
+
+        medicalSafety: resolve(__dirname, 'medical-safety.html'),
+
         certifications: resolve(__dirname, 'certifications.html'),
 
         products: resolve(__dirname, 'products.html'),
