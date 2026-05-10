@@ -1,4 +1,4 @@
-import{n as e}from"./navbarAnimation-CrrQq9Zh.js";import{n as t,r as n,t as r}from"./product-3-Ch0GErSB.js";import{n as i}from"./footerAnimation-DjfdfhNg.js";var a=[{id:1,title:`Disposable Syringes`,desc:`High precision sterile disposable syringes manufactured with advanced healthcare safety standards.`,image:n,link:`./disposable-syringes.html`},{id:2,title:`Insulin Syringes`,desc:`Reliable insulin syringes delivering precision dosage and enhanced patient comfort.`,image:r,link:`./insulin-syringes.html`},{id:3,title:`Safety Syringes`,desc:`Engineered safety syringes designed for infection prevention and safe medical handling.`,image:t,link:`./safety-syringes.html`}],o=()=>`
+import{i as e,n as t}from"./footerAnimation-BsQMeKeX.js";import{n,r,t as i}from"./product-3-Ch0GErSB.js";var a=[{id:1,title:`Disposable Syringes`,desc:`High precision sterile disposable syringes manufactured with advanced healthcare safety standards.`,image:r,link:`./disposable-syringes.html`},{id:2,title:`Insulin Syringes`,desc:`Reliable insulin syringes delivering precision dosage and enhanced patient comfort.`,image:i,link:`./insulin-syringes.html`},{id:3,title:`Safety Syringes`,desc:`Engineered safety syringes designed for infection prevention and safe medical handling.`,image:n,link:`./safety-syringes.html`}],o=()=>`
 
     <section class="products-section py-20 bg-white">
 
@@ -86,4 +86,4 @@ import{n as e}from"./navbarAnimation-CrrQq9Zh.js";import{n as t,r as n,t as r}fr
 
     </section>
 
-  `;e.registerPlugin(i);var s=()=>{window.innerWidth>=1024&&e.from(`.product-card`,{y:80,opacity:20,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.products-section`,start:`top 75%`}})};export{o as n,s as t};
+  `;e.registerPlugin(t);var s=()=>{window.innerWidth>=1024&&e.from(`.product-card`,{y:80,opacity:20,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.products-section`,start:`top 75%`}})};export{o as n,s as t};

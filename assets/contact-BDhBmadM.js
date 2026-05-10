@@ -1,4 +1,4 @@
-import{t as e}from"./navbar-DT3jM947.js";import{t}from"./navbarAnimation-CrrQq9Zh.js";import{t as n}from"./navbarFunctionality-NzYVoFzi.js";var r=()=>`
+import{n as e,t}from"./footer-DdZkCV0i.js";import{r as n,t as r}from"./footerAnimation-BsQMeKeX.js";import{t as i}from"./navbarFunctionality-NzYVoFzi.js";var a=()=>`
 
     <section class="contact-page pt-36 pb-20 md:pb-24 lg:pb-28 bg-stone-50 overflow-hidden">
 
@@ -272,7 +272,9 @@ import{t as e}from"./navbar-DT3jM947.js";import{t}from"./navbarAnimation-CrrQq9Z
 
   ${e()}
 
-  ${r()}
+  ${a()}
+
+  ${t()}
 
 
-`,t(),n(),contactAnimation();
+`,n(),i(),r(),contactAnimation();
