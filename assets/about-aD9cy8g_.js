@@ -1,0 +1,1 @@
+var e=`/NihalHealthcare/assets/about-kNUGpdeN.jpg`;export{e as t};

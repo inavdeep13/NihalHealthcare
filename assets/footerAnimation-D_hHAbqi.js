@@ -1,0 +1,1 @@
+import{n as e,t}from"./ScrollTrigger-EMptDItP.js";var n=()=>{e.from(`.navbar`,{x:-100,opacity:0,duration:1,ease:`power4.in`})};e.registerPlugin(t);var r=()=>{window.innerWidth>=1024&&e.from(`.footer-section`,{opacity:0,y:50,duration:1,scrollTrigger:{trigger:`.footer-section`,start:`top 90%`}})};export{n,r as t};
