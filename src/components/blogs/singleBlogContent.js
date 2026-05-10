@@ -47,11 +47,7 @@ export const singleBlogContent = (blog) => {
           space-y-8
         ">
 
-          <p>
-
-            ${blog.content}
-
-          </p>
+          
 
           <p>
 
