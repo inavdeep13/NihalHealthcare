@@ -90,11 +90,11 @@
                 </a>
               </li>
 
-             <!-- <li>
-                <a href="#" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+              <li>
+                <a href="./blogs.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   Blogs
                 </a>
-              </li> -->
+              </li>
 
               <li>
                 <a href="./history.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
@@ -216,11 +216,11 @@
               </a>
             </li>
 
-            <!--  <li>
-              <a href="#" class="text-lg font-semibold text-slate-800">
+            <li>
+              <a href="./blogs.html" class="text-lg font-semibold text-slate-800">
                 Blogs
               </a>
-            </li> -->
+            </li>
 
             <li>
               <a href="./history.html" class="text-lg font-semibold text-slate-800">

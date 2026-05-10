@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-EMptDItP.js";import{n as i,t as a}from"./footerAnimation-D_hHAbqi.js";import{t as o}from"./navbarFunctionality-DOBpbzkB.js";import{n as s,t as c}from"./productsAnimation-DMrNOJJh.js";import{n as l,t as u}from"./certificationsAnimations-BKJpgbRg.js";import{t as d}from"./about-aD9cy8g_.js";var f=`/NihalHealthcare/assets/hero-1-DP918TK8.jpg`,p=`/NihalHealthcare/assets/hero-2-DwOaF9jL.avif`,m=`/NihalHealthcare/assets/hero-3-ejHO0v_v.avif`,h=`/NihalHealthcare/assets/hero-4-DLpmizSW.jpg`,g=()=>`
+import{n as e,t}from"./footer-Cw3k2x3k.js";import{n,t as r}from"./ScrollTrigger-Cnxg2fRR.js";import{t as i}from"./navbarAnimation-yDjnL_2A.js";import{t as a}from"./navbarFunctionality-BZL7dPY8.js";import{n as o,t as s}from"./productsAnimation-CTse21GV.js";import{t as c}from"./footerAnimation-DumcuCCQ.js";import{n as l,t as u}from"./certificationsAnimations-BNzZcFvT.js";import{t as d}from"./blogsGrid-DcfGANwo.js";import{t as f}from"./about-C-RMGHZK.js";var p=`/NihalHealthcare/assets/hero-1-DP918TK8.jpg`,m=`/NihalHealthcare/assets/hero-2-DwOaF9jL.avif`,h=`/NihalHealthcare/assets/hero-3-ejHO0v_v.avif`,g=`/NihalHealthcare/assets/hero-4-DLpmizSW.jpg`,_=()=>`
 
     <section class="hero-section relative overflow-hidden bg-stone-50 min-h-screen flex items-center pt-32 lg:pt-20">
 
@@ -66,7 +66,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
               <img
                 id="hero-image"
-                src="${f}"
+                src="${p}"
                 alt="Healthcare"
                 class="w-full h-[350px] sm:h-[450px] object-cover transition-all duration-700"
               />
@@ -81,7 +81,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,_=()=>{n.timeline().from(`.hero-title`,{y:100,opacity:0,duration:1,ease:`power4.out`}).from(`.hero-desc`,{y:40,opacity:0,duration:.8},`-=0.5`).from(`#hero-image`,{scale:1.2,opacity:0,duration:1.2,ease:`power4.out`},`-=0.8`)},v=()=>{let e=document.querySelector(`#hero-image`),t=[f,p,m,h],n=0;setInterval(()=>{n++,n>=t.length&&(n=0),e.style.opacity=0,setTimeout(()=>{e.src=t[n],e.style.opacity=1},300)},2e3)},y=[{id:1,image:`/NihalHealthcare/assets/leader-1-nUYi6Nzd.jpg`,name:`Mr. Gurbhej Singh`,designation:`Managing Director`},{id:2,image:`/NihalHealthcare/assets/leader-2-CPPvHj1A.jpg`,name:`Mr. Harpeet Singh`,designation:`Managing Director`},{id:3,image:`/NihalHealthcare/assets/leader-3-BNV6kXhw.jpg`,name:`Mr. K.S Arya`,designation:`Plant Head / MR`}],b=()=>`
+  `,v=()=>{n.timeline().from(`.hero-title`,{y:100,opacity:0,duration:1,ease:`power4.out`}).from(`.hero-desc`,{y:40,opacity:0,duration:.8},`-=0.5`).from(`#hero-image`,{scale:1.2,opacity:0,duration:1.2,ease:`power4.out`},`-=0.8`)},y=()=>{let e=document.querySelector(`#hero-image`),t=[p,m,h,g],n=0;setInterval(()=>{n++,n>=t.length&&(n=0),e.style.opacity=0,setTimeout(()=>{e.src=t[n],e.style.opacity=1},300)},2e3)},b=[{id:1,image:`/NihalHealthcare/assets/leader-1-nUYi6Nzd.jpg`,name:`Mr. Gurbhej Singh`,designation:`Managing Director`},{id:2,image:`/NihalHealthcare/assets/leader-2-CPPvHj1A.jpg`,name:`Mr. Harpeet Singh`,designation:`Managing Director`},{id:3,image:`/NihalHealthcare/assets/leader-3-BNV6kXhw.jpg`,name:`Mr. K.S Arya`,designation:`Plant Head / MR`}],x=()=>`
 
     <section class="leadership-section py-16 bg-[#f5f5f5] overflow-hidden">
 
@@ -107,14 +107,14 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
         <!-- Leadership Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
 
-          ${y.map((e,t)=>`
+          ${b.map((e,t)=>`
 
             <div
               class="leader-card relative flex flex-col items-center text-center px-8 py-10"
             >
 
               <!-- Border -->
-              ${t===y.length-1?``:`
+              ${t===b.length-1?``:`
 
                 <div class="hidden xl:block absolute top-1/2 -translate-y-1/2 right-0 w-px h-[220px] bg-slate-300"></div>
 
@@ -155,7 +155,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `;n.registerPlugin(r);var x=()=>{window.innerWidth>=1024&&n.from(`.leader-card`,{y:80,opacity:0,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.leadership-section`,start:`top 75%`}})},S=[{id:1,image:`/NihalHealthcare/assets/client-1-BmBI487x.jpg`,name:`Dr. Amit Sharma`,designation:`Healthcare Distributor`,review:`Nihal Healthcare consistently delivers high-quality sterile syringe solutions with exceptional manufacturing precision and dependable service standards.`},{id:2,image:`/NihalHealthcare/assets/client-2-Al0pPLX0.jpg`,name:`Rajiv Mehta`,designation:`Medical Supply Partner`,review:`Their commitment to healthcare quality, sterile production, and timely supply chain management makes them a trusted manufacturing partner.`},{id:3,image:`/NihalHealthcare/assets/client-3-STMOKSvt.jpg`,name:`Dr. Neha Kapoor`,designation:`Hospital Procurement`,review:`The product quality, packaging standards, and consistency maintained by Nihal Healthcare have been excellent throughout our collaboration.`}],C=()=>`
+  `;n.registerPlugin(r);var S=()=>{window.innerWidth>=1024&&n.from(`.leader-card`,{y:80,opacity:0,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.leadership-section`,start:`top 75%`}})},C=[{id:1,image:`/NihalHealthcare/assets/client-1-BmBI487x.jpg`,name:`Dr. Amit Sharma`,designation:`Healthcare Distributor`,review:`Nihal Healthcare consistently delivers high-quality sterile syringe solutions with exceptional manufacturing precision and dependable service standards.`},{id:2,image:`/NihalHealthcare/assets/client-2-Al0pPLX0.jpg`,name:`Rajiv Mehta`,designation:`Medical Supply Partner`,review:`Their commitment to healthcare quality, sterile production, and timely supply chain management makes them a trusted manufacturing partner.`},{id:3,image:`/NihalHealthcare/assets/client-3-STMOKSvt.jpg`,name:`Dr. Neha Kapoor`,designation:`Hospital Procurement`,review:`The product quality, packaging standards, and consistency maintained by Nihal Healthcare have been excellent throughout our collaboration.`}],w=()=>`
 
     <section class="testimonials-section py-20 md:py-24 lg:py-28 bg-slate-900 overflow-hidden">
 
@@ -181,7 +181,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
         <!-- Testimonials Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
 
-          ${S.map(e=>`
+          ${C.map(e=>`
 
             <div
               class="testimonial-card bg-white/5 border border-white/10 backdrop-blur-md rounded-[28px] p-6 sm:p-8 hover:bg-white/10 transition-all duration-500"
@@ -242,7 +242,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `;n.registerPlugin(r);var w=()=>{window.innerWidth>=1024&&n.from(`.testimonial-card`,{y:80,opacity:20,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.testimonials-section`,start:`top 75%`}})},T=()=>`
+  `;n.registerPlugin(r);var T=()=>{window.innerWidth>=1024&&n.from(`.testimonial-card`,{y:80,opacity:20,stagger:.2,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.testimonials-section`,start:`top 75%`}})},E=()=>`
 
     <section class="contact-cta-section py-20 md:py-24 lg:py-28 bg-slate-900 overflow-hidden">
 
@@ -298,7 +298,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `;n.registerPlugin(r);var E=()=>{window.innerWidth>=1024&&n.from(`.contact-cta-title`,{y:80,opacity:0,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.contact-cta-section`,start:`top 75%`}})},D=()=>`
+  `;n.registerPlugin(r);var D=()=>{window.innerWidth>=1024&&n.from(`.contact-cta-title`,{y:80,opacity:0,duration:1,ease:`power4.out`,scrollTrigger:{trigger:`.contact-cta-section`,start:`top 75%`}})},O=()=>`
 
     <section class="
       py-20
@@ -333,7 +333,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
             ">
 
               <img
-                src="${d}"
+                src="${f}"
                 alt="About Nihal Healthcare"
                 class="
                   w-full
@@ -498,7 +498,7 @@ import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,O=()=>`
+  `,k=()=>`
 
     <section class="
       feedback-section
@@ -831,15 +831,16 @@ ${[`Excellent Quality`,`Fast Support`,`Trusted Products`,`Professional Team`].ma
 
     </section>
 
-  `,k=()=>{let e=document.querySelectorAll(`.rating-star`);e.forEach((t,n)=>{t.addEventListener(`click`,()=>{e.forEach((e,t)=>{t<=n?(e.classList.remove(`text-slate-300`),e.classList.add(`text-yellow-400`)):(e.classList.remove(`text-yellow-400`),e.classList.add(`text-slate-300`))})})});let t=document.querySelectorAll(`.feedback-option`);t.forEach(e=>{e.addEventListener(`click`,()=>{t.forEach(e=>{e.classList.remove(`bg-slate-900`,`text-white`),e.classList.add(`bg-stone-50`,`text-slate-700`)}),e.classList.remove(`bg-stone-50`,`text-slate-700`),e.classList.add(`bg-slate-900`,`text-white`)})}),document.querySelectorAll(`.feedback-tag`).forEach(e=>{e.addEventListener(`click`,()=>{e.classList.toggle(`bg-cyan-500`),e.classList.toggle(`text-white`),e.classList.toggle(`bg-cyan-50`),e.classList.toggle(`text-cyan-600`)})})};document.querySelector(`#app`).innerHTML=`
+  `,A=()=>{let e=document.querySelectorAll(`.rating-star`);e.forEach((t,n)=>{t.addEventListener(`click`,()=>{e.forEach((e,t)=>{t<=n?(e.classList.remove(`text-slate-300`),e.classList.add(`text-yellow-400`)):(e.classList.remove(`text-yellow-400`),e.classList.add(`text-slate-300`))})})});let t=document.querySelectorAll(`.feedback-option`);t.forEach(e=>{e.addEventListener(`click`,()=>{t.forEach(e=>{e.classList.remove(`bg-slate-900`,`text-white`),e.classList.add(`bg-stone-50`,`text-slate-700`)}),e.classList.remove(`bg-stone-50`,`text-slate-700`),e.classList.add(`bg-slate-900`,`text-white`)})}),document.querySelectorAll(`.feedback-tag`).forEach(e=>{e.addEventListener(`click`,()=>{e.classList.toggle(`bg-cyan-500`),e.classList.toggle(`text-white`),e.classList.toggle(`bg-cyan-50`),e.classList.toggle(`text-cyan-600`)})})};n.registerPlugin(r);var j=()=>{n.from(`.blogs-grid-section h2, .blogs-grid-section h1`,{opacity:20,y:60,duration:1,ease:`power3.out`}),n.from(`.blogs-grid-section p`,{opacity:20,y:40,duration:1,delay:.2,ease:`power3.out`}),n.from(`.blogs-grid-section .group`,{scrollTrigger:{trigger:`.blogs-grid-section`,start:`top 75%`},opacity:20,y:80,stagger:.2,duration:1,ease:`power3.out`}),n.from(`.single-blog-image`,{scrollTrigger:{trigger:`.single-blog-image`,start:`top 80%`},opacity:20,scale:.9,duration:1.2,ease:`power3.out`}),n.from(`.single-blog-content p`,{scrollTrigger:{trigger:`.single-blog-content`,start:`top 80%`},opacity:20,y:50,stagger:.2,duration:1,ease:`power3.out`})};document.querySelector(`#app`).innerHTML=`
   ${e()}
-  ${g()}
-  ${s()}
-  ${D()}
-  ${b()}
-  ${C()}
-  ${l(3,!0,!0)}
-  ${T()}
+  ${_()}
+  ${o()}
   ${O()}
+  ${x()}
+  ${w()}
+  ${l(3,!0,!0)}
+  ${d(3,!0,!0)}
+  ${E()}
+  ${k()}
   ${t()}
-`,i(),o(),v(),_(),v(),c(),x(),w(),u(),E(),a(),k();
+`,i(),a(),y(),v(),y(),s(),S(),T(),u(),D(),c(),A(),j();

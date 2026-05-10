@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-8f2YvWVC.js";import{n,t as r}from"./ScrollTrigger-EMptDItP.js";import{t as i}from"./about-aD9cy8g_.js";var a=()=>`
+import{n as e,t}from"./footer-Cw3k2x3k.js";import{n,t as r}from"./ScrollTrigger-Cnxg2fRR.js";import{t as i}from"./about-C-RMGHZK.js";var a=()=>`
 
     <section class="
       py-20
