@@ -128,11 +128,7 @@ var e=e=>`
           space-y-8
         ">
 
-          <p>
-
-            ${e.content}
-
-          </p>
+          
 
           <p>
 
