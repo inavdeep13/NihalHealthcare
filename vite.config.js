@@ -20,6 +20,8 @@ export default defineConfig({
 
         about: resolve(__dirname, 'about.html'),
 
+        blogs: resolve(__dirname, 'blogs.html'),
+
         certifications: resolve(__dirname, 'certifications.html'),
 
         products: resolve(__dirname, 'products.html'),

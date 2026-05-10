@@ -19,9 +19,11 @@ import { footer } from './components/footer/footer'
 import { footerAnimation } from './components/footer/footerAnimation'
 import { certificationsGrid } from './components/certifications-page/certificationsGrid'
 import { certificationsAnimation } from './components/certifications-page/certificationsAnimations'
+import { blogsGrid } from './components/blogs/blogsGrid'
 import { aboutPreview } from './components/about/aboutPreview'
 import { feedback } from './components/feedback/feedback'
 import { feedbackFunctionality } from './components/feedback/feedbackFunctionality'
+import { blogsAnimation } from './components/blogs/blogsAnimation'
 
 document.querySelector("#app").innerHTML = `
   ${navbar()}
@@ -31,6 +33,7 @@ document.querySelector("#app").innerHTML = `
   ${leadership()}
   ${testimonials()}
   ${certificationsGrid(3, true, true)}
+  ${blogsGrid(3, true, true)}
   ${contactCta()}
   ${feedback()}
   ${footer()}
@@ -49,3 +52,4 @@ certificationsAnimation()
 contactCtaAnimation()
 footerAnimation()
 feedbackFunctionality()
+blogsAnimation()
