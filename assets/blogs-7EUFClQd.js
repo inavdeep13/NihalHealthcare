@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-Cw3k2x3k.js";import{t as n}from"./footerAnimation-DumcuCCQ.js";import{t as r}from"./blogsGrid-DcfGANwo.js";var i=()=>`
+import{n as e,t}from"./footer-CFQfVVDl.js";import{t as n}from"./footerAnimation-CKRST3xT.js";import{t as r}from"./blogsGrid-D9i9JFFe.js";var i=()=>`
 
     <section class="
       pt-32

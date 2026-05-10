@@ -1,22 +1,11 @@
-var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:`
-      Discover how sterile manufacturing
-      standards ensure healthcare safety,
-      reliability, and patient protection.
-    `,image:`/NihalHealthcare/assets/blogs-1-QYwfhJVO.jpg`,date:`March 2026`,category:`Manufacturing`,link:`./sterile-manufacturing.html`},{id:2,title:`Healthcare Innovation Through Medical Engineering`,desc:`
-      Learn how precision engineering
-      improves healthcare manufacturing
-      and medical product reliability.
-    `,image:`/NihalHealthcare/assets/blogs-2-CXzRZc50.jpg`,date:`April 2026`,category:`Innovation`,link:`./healthcare-innovation.html`},{id:3,title:`Why Medical Safety Standards Matter In Healthcare`,desc:`
-      Explore the role of certified
-      safety standards in modern
-      healthcare manufacturing.
-    `,image:`/NihalHealthcare/assets/blogs-3-OeLTFuc1.jpg`,date:`May 2026`,category:`Healthcare`,link:`./medical-safety.html`}],t=(t=null,n=!0,r=!1)=>`
+import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets/certificate-1-DZ_FKYtk.jpg`,r=`/NihalHealthcare/assets/certificate-2-fDzzzH5o.jpg`,i=`/NihalHealthcare/assets/certificate-3-tdOhh4f8.jpg`,a=[{title:`CE Certification`,desc:`European healthcare manufacturing compliance certification.`,image:n,file:`/NihalHealthcare/assets/551118%20-%20NIHAL%20HEALTHCARE%20-%20CERTIFICATE%20-%20englisch%20-%202025-04-07%20-%20MDR2017Q-BTzFblqy.pdf`},{title:`ISO 9001 Certification`,desc:`International quality management systems certification.`,image:r,file:`/NihalHealthcare/assets/ISO%209001-2015%20RENUAL%202023%20(1)-DERNB-ro.PDF`},{title:`GMP Certification`,desc:`Good Manufacturing Practice certified operations.`,image:i,file:`/NihalHealthcare/assets/icmed%2013485%20%20renewal-DZKG69oA.pdf`},{title:`BIS Licence`,desc:`Indian standards certification for syringe manufacturing.`,image:n,file:`/NihalHealthcare/assets/BIS%20LICENCE-D7z3pIG8.pdf`},{title:`EN ISO 13485`,desc:`Medical devices quality management certification.`,image:r,file:`/NihalHealthcare/assets/En%20ISO%2013485%20latestr-DSeHlwr5.PDF`},{title:`Drug Licence`,desc:`Certified healthcare manufacturing drug licence approval.`,image:i,file:`/NihalHealthcare/assets/NEW%20DRUG%20LICENCE-C0wTP-Lg.PDF`},{title:`GST Registration`,desc:`Official GST registration certification.`,image:n,file:`/NihalHealthcare/assets/GST%20-%20Copy-CO-8F2JU.PDF`}],o=(e=null,t=!0,n=!1)=>`
 
     <section class="
-      blogs-grid-section
+      certifications-grid-section
       py-16
-      mb-16
-      bg-white
+      md:py-20
+      lg:py-24
+      bg-stone-50
       overflow-hidden
     ">
 
@@ -28,7 +17,7 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
         lg:px-8
       ">
 
-        ${n?`
+        ${t?`
 
             <!-- HEADER -->
             <div class="
@@ -41,6 +30,7 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
               mb-14
             ">
 
+              <!-- CONTENT -->
               <div>
 
                 <span class="
@@ -52,29 +42,29 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
                   sm:text-sm
                 ">
 
-                  Blogs & Insights
+                  Certifications
 
                 </span>
 
                 <h2 class="
                   mt-4
                   text-4xl
-                  md:text-5xl
-                  font-extrabold
+                  font-bold
                   text-slate-900
                   leading-tight
                 ">
 
-                  Healthcare Industry Articles & Insights
+                  Certified Healthcare Manufacturing Standards
 
                 </h2>
 
               </div>
 
-              ${r?`
+              ${n?`
 
+                  <!-- BUTTON -->
                   <a
-                    href="./blogs.html"
+                    href="./certifications.html"
                     class="
                       inline-flex
                       items-center
@@ -87,7 +77,7 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
                     "
                   >
 
-                    View All Blogs
+                    View All Certifications
 
                     <span>→</span>
 
@@ -109,16 +99,19 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
           lg:gap-8
         ">
 
-          ${(t?e.slice(0,t):e).map(e=>`
+          ${(e?a.slice(0,e):a).map(e=>`
 
             <a
-              href="${e.link}"
+              href="${e.file}"
+              target="_blank"
               class="
+                certification-card
                 group
-                bg-stone-50
+                bg-white
                 border
                 border-slate-200
-                rounded-[28px]
+                shadow-sm
+                rounded-[24px]
                 overflow-hidden
                 hover:shadow-xl
                 hover:border-cyan-300
@@ -129,15 +122,20 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
             >
 
               <!-- IMAGE -->
-              <div class="overflow-hidden">
+              <div class="
+                overflow-hidden
+                bg-slate-100
+              ">
 
                 <img
                   src="${e.image}"
                   alt="${e.title}"
                   class="
                     w-full
-                    h-[240px]
-                    object-cover
+                    h-[200px]
+                    sm:h-[220px]
+                    object-contain
+                    p-4
                     group-hover:scale-105
                     transition-all
                     duration-700
@@ -147,46 +145,18 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
               </div>
 
               <!-- CONTENT -->
-              <div class="p-6">
-
-                <!-- META -->
-                <div class="
-                  flex
-                  items-center
-                  gap-3
-                  text-sm
-                ">
-
-                  <span class="
-                    text-cyan-500
-                    font-semibold
-                  ">
-
-                    ${e.category}
-
-                  </span>
-
-                  <span class="text-slate-400">
-
-                    •
-
-                  </span>
-
-                  <span class="text-slate-500">
-
-                    ${e.date}
-
-                  </span>
-
-                </div>
+              <div class="
+                p-5
+                md:p-6
+              ">
 
                 <!-- TITLE -->
                 <h3 class="
-                  mt-5
-                  text-2xl
+                  text-xl
+                  md:text-2xl
                   font-bold
                   text-slate-900
-                  leading-snug
+                  leading-tight
                 ">
 
                   ${e.title}
@@ -195,8 +165,10 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
 
                 <!-- DESCRIPTION -->
                 <p class="
-                  mt-4
+                  mt-3
                   text-slate-600
+                  text-sm
+                  md:text-base
                   leading-relaxed
                 ">
 
@@ -210,17 +182,20 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
                   <span class="
                     inline-flex
                     items-center
-                    gap-2
-                    text-slate-900
+                    justify-center
+                    bg-slate-900
+                    hover:bg-cyan-500
+                    text-white
+                    px-5
+                    py-2.5
+                    rounded-full
+                    text-sm
                     font-semibold
-                    hover:text-cyan-500
                     transition-all
                     duration-300
                   ">
 
-                    Read Full Article
-
-                    <span>→</span>
+                    View Certificate
 
                   </span>
 
@@ -238,4 +213,4 @@ var e=[{id:1,title:`The Importance Of Sterile Manufacturing In Healthcare`,desc:
 
     </section>
 
-  `;export{t};
+  `;e.registerPlugin(t);var s=()=>{window.innerWidth>=1024&&e.utils.toArray(`.certification-card`).forEach((t,n)=>{e.from(t,{opacity:0,y:30,scale:.96,duration:.7,ease:`power2.out`,scrollTrigger:{trigger:t,start:`top 88%`}})})};export{o as n,s as t};

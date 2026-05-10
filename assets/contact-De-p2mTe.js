@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-Cw3k2x3k.js";import{t as n}from"./navbarAnimation-yDjnL_2A.js";import{t as r}from"./navbarFunctionality-BZL7dPY8.js";import{t as i}from"./footerAnimation-DumcuCCQ.js";var a=()=>`
+import{n as e,t}from"./footer-CFQfVVDl.js";import{t as n}from"./navbarAnimation-BR7tm-1W.js";import{t as r}from"./navbarFunctionality-BGR2sRVx.js";import{t as i}from"./footerAnimation-CKRST3xT.js";var a=()=>`
 
     <section class="contact-page pt-36 pb-20 md:pb-24 lg:pb-28 bg-stone-50 overflow-hidden">
 

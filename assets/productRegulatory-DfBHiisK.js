@@ -1,4 +1,4 @@
-import{n as e,r as t,t as n}from"./product-3-Ck0CcK37.js";var r={disposable:{title:`Disposable Syringes`,image:t,desc:`
+import{n as e,r as t,t as n}from"./product-3-BgV-0UnQ.js";var r={disposable:{title:`Disposable Syringes`,image:t,desc:`
       High precision disposable syringes manufactured
       using advanced medical-grade materials ensuring
       sterility, smooth administration, and patient safety.
