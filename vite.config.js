@@ -18,6 +18,8 @@ export default defineConfig({
 
         history: resolve(__dirname, 'history.html'),
 
+        about: resolve(__dirname, 'about.html'),
+
         certifications: resolve(__dirname, 'certifications.html'),
 
         products: resolve(__dirname, 'products.html'),
