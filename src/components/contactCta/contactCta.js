@@ -32,7 +32,7 @@ export const contactCta = () => {
 
           <!-- Contact Button -->
           <a
-            href="/contact.html"
+            href="./contact.html"
             class="inline-flex items-center justify-center bg-cyan-500 hover:bg-cyan-400 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto"
           >
 
@@ -41,14 +41,14 @@ export const contactCta = () => {
           </a>
 
           <!-- Quote Button -->
-          <a
+          <!-- <a
             href="/contact.html"
             class="inline-flex items-center justify-center border border-white/20 hover:border-cyan-400 hover:text-cyan-400 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 w-full sm:w-auto"
           >
 
             Request Quote
 
-          </a>
+          </a> -->
 
         </div>
 

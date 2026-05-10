@@ -4,7 +4,7 @@ import { navbar } from './components/navbar/navbar'
 
 import { footer } from './components/footer/footer'
 
-import { productData } from './components/product-detail/productData'
+import { productData } from './components/product-detail/productDetails'
 
 import { productHero } from './components/product-detail/productHero'
 

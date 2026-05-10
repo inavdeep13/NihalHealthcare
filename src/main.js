@@ -9,8 +9,6 @@ import { heroAnimation } from './components/hero-section/heroAnimation'
 import { imageSlider } from './components/hero-section/imageSlider'
 import { products } from './components/products/products'
 import { productsAnimation } from './components/products/productsAnimation'
-import { about } from './components/about/about'
-import { aboutAnimation } from './components/about/aboutAnimation'
 import { leadership } from './components/leadership/leadership'
 import { leadershipAnimation } from './components/leadership/leadershipAnimation'
 import { testimonials } from './components/testimonials/testimonials'
@@ -21,16 +19,20 @@ import { footer } from './components/footer/footer'
 import { footerAnimation } from './components/footer/footerAnimation'
 import { certificationsGrid } from './components/certifications-page/certificationsGrid'
 import { certificationsAnimation } from './components/certifications-page/certificationsAnimations'
+import { aboutPreview } from './components/about/aboutPreview'
+import { feedback } from './components/feedback/feedback'
+import { feedbackFunctionality } from './components/feedback/feedbackFunctionality'
 
 document.querySelector("#app").innerHTML = `
   ${navbar()}
   ${hero()}
   ${products()}
-  ${about()}
+  ${aboutPreview()}
   ${leadership()}
   ${testimonials()}
-  ${certificationsGrid(3, true)}
+  ${certificationsGrid(3, true, true)}
   ${contactCta()}
+  ${feedback()}
   ${footer()}
 `
 
@@ -41,9 +43,9 @@ imageSlider()
 heroAnimation() 
 imageSlider()
 productsAnimation()
-aboutAnimation()
 leadershipAnimation()
 testimonialsAnimation()
 certificationsAnimation()
 contactCtaAnimation()
 footerAnimation()
+feedbackFunctionality()

@@ -50,14 +50,14 @@ export const hero = () => {
             <div class="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
               <a
-                href="#"
+                href="./products.html"
                 class="inline-flex items-center justify-center bg-slate-900 hover:bg-cyan-500 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300"
               >
                 Explore Products
               </a>
 
               <a
-                href="#"
+                href="./contact.html"
                 class="inline-flex items-center justify-center border border-slate-300 hover:border-cyan-500 hover:text-cyan-500 text-slate-700 px-8 py-4 rounded-full font-semibold transition-all duration-300"
               >
                 Contact Us

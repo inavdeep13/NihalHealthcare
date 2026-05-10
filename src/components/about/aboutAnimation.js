@@ -1,5 +1,6 @@
-import gsap from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import gsap from 'gsap'
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -8,39 +9,100 @@ export const aboutAnimation = () => {
   // Desktop Only
   if(window.innerWidth >= 1024){
 
-    const tl = gsap.timeline({
+    // HERO CONTENT
+    gsap.from('.about-hero-content', {
 
-      scrollTrigger: {
-        trigger: ".about-section",
-        start: "top 70%",
-      }
-
-    })
-
-    tl.from(".about-image", {
-
-      scale: 1.2,
       opacity: 0,
-      duration: 1.2,
-      ease: "power4.out",
-
-    })
-
-    .from(".about-title", {
-
       y: 80,
+      duration: 1.2,
+      ease: 'power3.out',
+
+    })
+
+    // HERO IMAGE
+    gsap.from('.about-hero-image', {
+
       opacity: 0,
+      scale: 0.9,
+      duration: 1.3,
+      delay: 0.2,
+      ease: 'power3.out',
+
+    })
+
+    // OVERVIEW
+    gsap.from('.about-overview', {
+
+      opacity: 0,
+      y: 80,
       duration: 1,
 
-    }, "-=0.7")
+      scrollTrigger: {
 
-    .from(".about-desc", {
+        trigger: '.about-overview',
+        start: 'top 85%',
 
-      y: 40,
+      },
+
+    })
+
+    // MISSION CARDS
+    gsap.utils.toArray('.about-card').forEach((card, index) => {
+
+      gsap.from(card, {
+
+        opacity: 0,
+        y: 60,
+        duration: 1,
+        delay: index * 0.15,
+
+        scrollTrigger: {
+
+          trigger: card,
+          start: 'top 88%',
+
+        },
+
+      })
+
+    })
+
+    // WHY US CARDS
+    gsap.utils.toArray('.why-card').forEach((card, index) => {
+
+      gsap.from(card, {
+
+        opacity: 0,
+        y: 60,
+        duration: 0.9,
+        delay: index * 0.1,
+
+        scrollTrigger: {
+
+          trigger: card,
+          start: 'top 90%',
+
+        },
+
+      })
+
+    })
+
+    // CTA
+    gsap.from('.about-cta', {
+
       opacity: 0,
-      duration: 0.8,
+      y: 80,
+      duration: 1,
 
-    }, "-=0.5")
+      scrollTrigger: {
+
+        trigger: '.about-cta',
+        start: 'top 85%',
+
+      },
+
+    })
 
   }
 

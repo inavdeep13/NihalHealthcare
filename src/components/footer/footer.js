@@ -1,164 +1,332 @@
+import logo from '../../assets/images/logo.png'
+
 export const footer = () => {
 
   return `
 
-    <footer class="footer-section bg-slate-950 text-white pt-20 pb-10 overflow-hidden">
+    <footer class="
+      footer-section
+      bg-slate-950
+      text-white
+      pt-20
+      pb-10
+      overflow-hidden
+    ">
 
       <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 
-        <!-- Top Footer -->
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-12 pb-16 border-b border-white/10">
+        <!-- TOP FOOTER -->
+        <div class="
+          grid
+          grid-cols-1
+          sm:grid-cols-2
+          xl:grid-cols-4
+          gap-12
+          pb-16
+          border-b
+          border-white/10
+        ">
 
-          <!-- Company Info -->
+          <!-- COMPANY -->
           <div>
 
+            <!-- LOGO -->
             <a
-              href="/"
-              class="text-3xl font-extrabold tracking-wide"
+              href="./index.html"
+              class="inline-flex items-center gap-4"
             >
 
-              Nihal Healthcare
+              <img
+                src="${logo}"
+                alt="Nihal Healthcare Logo"
+                class="
+                  w-14
+                  h-14
+                  object-contain
+                  rounded-xl
+                  bg-white
+                  p-2
+                "
+              />
+
+              <div>
+
+                <h2 class="
+                  text-2xl
+                  font-extrabold
+                  tracking-wide
+                ">
+
+                  Nihal Healthcare
+
+                </h2>
+
+              </div>
 
             </a>
 
-            <p class="mt-6 text-slate-400 leading-relaxed text-sm sm:text-base">
+            <!-- DESCRIPTION -->
+            <p class="
+              mt-6
+              text-slate-400
+              leading-relaxed
+              text-sm
+              sm:text-base
+              max-w-sm
+            ">
 
-              Nihal Healthcare specializes in sterile medical disposable manufacturing with advanced production standards and global healthcare quality certifications.
+              Nihal Healthcare specializes in sterile
+              medical disposable manufacturing with
+              advanced production standards and
+              global healthcare quality certifications.
 
             </p>
 
           </div>
 
-          <!-- Quick Links -->
+          <!-- QUICK LINKS -->
           <div>
 
-            <h3 class="text-xl font-bold">
+            <h3 class="
+              text-xl
+              font-bold
+            ">
 
               Quick Links
 
             </h3>
 
-            <ul class="mt-6 space-y-4">
+            <ul class="
+              mt-6
+              space-y-4
+            ">
 
               <li>
+
                 <a
-                  href="/"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./index.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Home
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/about.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./history.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
-                  About
+
+                  History
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/products.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./products.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Products
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/certifications.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./certifications.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Certifications
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/contact.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./contact.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Contact
+
                 </a>
+
               </li>
 
             </ul>
 
           </div>
 
-          <!-- Products -->
+          <!-- PRODUCTS -->
           <div>
 
-            <h3 class="text-xl font-bold">
+            <h3 class="
+              text-xl
+              font-bold
+            ">
 
-              Products
+              Our Products
 
             </h3>
 
-            <ul class="mt-6 space-y-4">
+            <ul class="
+              mt-6
+              space-y-4
+            ">
 
               <li>
+
                 <a
-                  href="/products/disposable-syringes.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./disposable-syringes.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Disposable Syringes
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/products/safety-syringes.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./safety-syringes.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Safety Syringes
+
                 </a>
+
               </li>
 
               <li>
+
                 <a
-                  href="/products/insulin-syringes.html"
-                  class="text-slate-400 hover:text-cyan-400 transition-all duration-300"
+                  href="./insulin-syringes.html"
+                  class="
+                    text-slate-400
+                    hover:text-cyan-400
+                    transition-all
+                    duration-300
+                  "
                 >
+
                   Insulin Syringes
+
                 </a>
+
               </li>
 
             </ul>
 
           </div>
 
-          <!-- Contact -->
+          <!-- CONTACT -->
           <div>
 
-            <h3 class="text-xl font-bold">
+            <h3 class="
+              text-xl
+              font-bold
+            ">
 
               Contact
 
             </h3>
 
-            <div class="mt-6 space-y-5 text-slate-400 text-sm sm:text-base">
+            <div class="
+              mt-6
+              space-y-5
+              text-slate-400
+              text-sm
+              sm:text-base
+            ">
 
-              <p>
+              <p class="leading-relaxed">
 
-                Plot No.33, EPIP Phase-I, Jharmajri, Tehsil Baddi, Solan, Himachal Pradesh, India
+                Plot No.33, EPIP Phase-I,
+                Jharmajri, Tehsil Baddi,
+                Solan, Himachal Pradesh,
+                India
 
               </p>
 
-              <p>
+              <a
+                href="tel:+911795271236"
+                class="
+                  block
+                  hover:text-cyan-400
+                  transition-all
+                  duration-300
+                "
+              >
 
                 +91 1795271236
 
-              </p>
+              </a>
 
-              <p>
+              <a
+                href="mailto:nihalhealth2012@gmail.com"
+                class="
+                  block
+                  hover:text-cyan-400
+                  transition-all
+                  duration-300
+                  break-all
+                "
+              >
 
                 nihalhealth2012@gmail.com
 
-              </p>
+              </a>
 
             </div>
 
@@ -166,31 +334,66 @@ export const footer = () => {
 
         </div>
 
-        <!-- Bottom Footer -->
-        <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-5">
+        <!-- BOTTOM FOOTER -->
+        <div class="
+          pt-8
+          flex
+          flex-col
+          md:flex-row
+          items-center
+          justify-between
+          gap-5
+        ">
 
-          <!-- Copyright -->
-          <p class="text-slate-500 text-sm text-center md:text-left">
+          <!-- COPYRIGHT -->
+          <p class="
+            text-slate-500
+            text-sm
+            text-center
+            md:text-left
+          ">
 
-            © 2026 Nihal Healthcare. All rights reserved.
+            © 2026 Nihal Healthcare.
+            All rights reserved.
 
           </p>
 
-          <!-- Footer Links -->
-          <div class="flex items-center gap-6 text-sm">
+          <!-- FOOTER LINKS -->
+          <div class="
+            flex
+            flex-wrap
+            items-center
+            justify-center
+            gap-6
+            text-sm
+          ">
 
             <a
               href="#"
-              class="text-slate-500 hover:text-cyan-400 transition-all duration-300"
+              class="
+                text-slate-500
+                hover:text-cyan-400
+                transition-all
+                duration-300
+              "
             >
+
               Privacy Policy
+
             </a>
 
             <a
               href="#"
-              class="text-slate-500 hover:text-cyan-400 transition-all duration-300"
+              class="
+                text-slate-500
+                hover:text-cyan-400
+                transition-all
+                duration-300
+              "
             >
+
               Terms & Conditions
+
             </a>
 
           </div>

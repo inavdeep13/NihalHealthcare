@@ -89,6 +89,12 @@ export const navbar = () => {
                 </a>
               </li>
 
+              <li>
+                <a href="./about.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                  About
+                </a>
+              </li>
+
              <!-- <li>
                 <a href="#" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   Blogs
@@ -182,19 +188,19 @@ export const navbar = () => {
               <ul class="flex flex-col gap-4 pl-4 border-l border-slate-200">
 
                 <li>
-                  <a href="#" class="text-slate-600 hover:text-blue-600">
+                  <a href="./disposable-syringes.html" class="text-slate-600 hover:text-blue-600">
                     Disposable Syringes
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-slate-600 hover:text-blue-600">
-                    Auto Disable Syringes
+                  <a href="./insulin-syringes.html" class="text-slate-600 hover:text-blue-600">
+                    Insulin Syringe
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-slate-600 hover:text-blue-600">
+                  <a href="./safety-syringes.html" class="text-slate-600 hover:text-blue-600">
                     Safety Syringes
                   </a>
                 </li>
@@ -209,13 +215,13 @@ export const navbar = () => {
               </a>
             </li>
 
-            <!-- <li>
-              <a href="#" class="text-lg font-semibold text-slate-800">
+           <li>
+              <a href="./about.html" class="text-lg font-semibold text-slate-800">
                 About
               </a>
             </li>
 
-            <li>
+            <!--  <li>
               <a href="#" class="text-lg font-semibold text-slate-800">
                 Blogs
               </a>

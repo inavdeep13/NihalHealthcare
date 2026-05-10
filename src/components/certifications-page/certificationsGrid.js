@@ -2,68 +2,123 @@ import { certificationsData } from './certificationsData'
 
 export const certificationsGrid = (
   limit = null,
+  showHeader = true,
   showViewAll = false
 ) => {
 
   return `
 
-    <section class="certifications-grid-section py-16 md:py-20 lg:py-24 bg-stone-50 overflow-hidden">
+    <section class="
+      certifications-grid-section
+      py-16
+      md:py-20
+      lg:py-24
+      bg-stone-50
+      overflow-hidden
+    ">
 
-      <div class="max-w-6xl mx-auto px-4 md:px-6 lg:px-8">
+      <div class="
+        max-w-6xl
+        mx-auto
+        px-4
+        md:px-6
+        lg:px-8
+      ">
 
-      ${
-  showViewAll
-  ? `
-    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-14">
+        ${
+          showHeader
+          ? `
 
-      <div>
+            <!-- HEADER -->
+            <div class="
+              flex
+              flex-col
+              lg:flex-row
+              lg:items-end
+              lg:justify-between
+              gap-8
+              mb-14
+            ">
 
-        <span class="text-cyan-500 font-semibold uppercase tracking-[0.2em] text-xs sm:text-sm">
+              <!-- CONTENT -->
+              <div>
 
-          Certifications
+                <span class="
+                  text-cyan-500
+                  font-semibold
+                  uppercase
+                  tracking-[0.2em]
+                  text-xs
+                  sm:text-sm
+                ">
 
-        </span>
+                  Certifications
 
-        <h2 class="mt-4 text-4xl font-extrabold text-slate-900 leading-tight">
+                </span>
 
-          Certified Healthcare Manufacturing Standards
+                <h2 class="
+                  mt-4
+                  text-4xl
+                  font-bold
+                  text-slate-900
+                  leading-tight
+                ">
 
-        </h2>
+                  Certified Healthcare Manufacturing Standards
 
-      </div>
+                </h2>
 
-      <a
-        href="/certifications.html"
-        class="
-          inline-flex
-          items-center
-          gap-2
-          text-slate-900
-          font-semibold
-          hover:text-cyan-500
-          transition-all
-          duration-300
-        "
-      >
+              </div>
 
-        View All Certifications
+              ${
+                showViewAll
+                ? `
 
-        <span>→</span>
+                  <!-- BUTTON -->
+                  <a
+                    href="./certifications.html"
+                    class="
+                      inline-flex
+                      items-center
+                      gap-2
+                      text-slate-900
+                      font-semibold
+                      hover:text-cyan-500
+                      transition-all
+                      duration-300
+                    "
+                  >
 
-      </a>
+                    View All Certifications
 
-    </div>
-  `
-  : ''
-}
+                    <span>→</span>
 
-        <!-- Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+                  </a>
+
+                `
+                : ''
+              }
+
+            </div>
+
+          `
+          : ''
+        }
+
+        <!-- GRID -->
+        <div class="
+          grid
+          grid-cols-1
+          sm:grid-cols-2
+          xl:grid-cols-3
+          gap-6
+          lg:gap-8
+        ">
 
           ${(limit
-  ? certificationsData.slice(0, limit)
-  : certificationsData
-).map(certification => `
+            ? certificationsData.slice(0, limit)
+            : certificationsData
+          ).map(certification => `
 
             <a
               href="${certification.file}"
@@ -85,8 +140,11 @@ export const certificationsGrid = (
               "
             >
 
-              <!-- Certificate Preview -->
-              <div class="overflow-hidden bg-slate-100">
+              <!-- IMAGE -->
+              <div class="
+                overflow-hidden
+                bg-slate-100
+              ">
 
                 <img
                   src="${certification.image}"
@@ -105,10 +163,13 @@ export const certificationsGrid = (
 
               </div>
 
-              <!-- Content -->
-              <div class="p-5 md:p-6">
+              <!-- CONTENT -->
+              <div class="
+                p-5
+                md:p-6
+              ">
 
-                <!-- Title -->
+                <!-- TITLE -->
                 <h3 class="
                   text-xl
                   md:text-2xl
@@ -121,7 +182,7 @@ export const certificationsGrid = (
 
                 </h3>
 
-                <!-- Description -->
+                <!-- DESCRIPTION -->
                 <p class="
                   mt-3
                   text-slate-600
@@ -134,7 +195,7 @@ export const certificationsGrid = (
 
                 </p>
 
-                <!-- Button -->
+                <!-- BUTTON -->
                 <div class="mt-6">
 
                   <span class="
