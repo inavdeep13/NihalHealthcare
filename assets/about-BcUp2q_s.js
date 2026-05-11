@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-DsHi3vbS.js";import{t as i}from"./about-BwmXVwPl.js";var a=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./ScrollTrigger-DcOsuaeI.js";import{t as i}from"./about-DCy0HzdF.js";import{n as a,t as o}from"./whatsappButtonFunctionality-BKKGEkSk.js";var s=()=>`
 
     <section class="
       py-20
@@ -102,7 +102,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,o=()=>`
+  `,c=()=>`
 
     <section class="
       py-20
@@ -172,7 +172,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,s=()=>`
+  `,l=()=>`
 
     <section class="
       py-20
@@ -294,7 +294,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,c=()=>`
+  `,u=()=>`
 
     <section class="
       py-20
@@ -402,7 +402,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `,l=()=>`
+  `,d=()=>`
 
     <section class="
       py-20
@@ -489,15 +489,11 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `;n.registerPlugin(r);var u=()=>{window.innerWidth>=1024&&(n.from(`.about-hero-content`,{opacity:0,y:80,duration:1.2,ease:`power3.out`}),n.from(`.about-hero-image`,{opacity:0,scale:.9,duration:1.3,delay:.2,ease:`power3.out`}),n.from(`.about-overview`,{opacity:0,y:80,duration:1,scrollTrigger:{trigger:`.about-overview`,start:`top 85%`}}),n.utils.toArray(`.about-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:60,duration:1,delay:t*.15,scrollTrigger:{trigger:e,start:`top 88%`}})}),n.utils.toArray(`.why-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:60,duration:.9,delay:t*.1,scrollTrigger:{trigger:e,start:`top 90%`}})}),n.from(`.about-cta`,{opacity:0,y:80,duration:1,scrollTrigger:{trigger:`.about-cta`,start:`top 85%`}}))};document.querySelector(`#app`).innerHTML=`
+  `;n.registerPlugin(r);var f=()=>{window.innerWidth>=1024&&(n.from(`.about-hero-content`,{opacity:0,y:80,duration:1.2,ease:`power3.out`}),n.from(`.about-hero-image`,{opacity:0,scale:.9,duration:1.3,delay:.2,ease:`power3.out`}),n.from(`.about-overview`,{opacity:0,y:80,duration:1,scrollTrigger:{trigger:`.about-overview`,start:`top 85%`}}),n.utils.toArray(`.about-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:60,duration:1,delay:t*.15,scrollTrigger:{trigger:e,start:`top 88%`}})}),n.utils.toArray(`.why-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:60,duration:.9,delay:t*.1,scrollTrigger:{trigger:e,start:`top 90%`}})}),n.from(`.about-cta`,{opacity:0,y:80,duration:1,scrollTrigger:{trigger:`.about-cta`,start:`top 85%`}}))};document.querySelector(`#app`).innerHTML=`
 
   ${e()}
 
   <main class="pt-20">
-
-    ${a()}
-
-    ${o()}
 
     ${s()}
 
@@ -505,8 +501,14 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     ${l()}
 
+    ${u()}
+
+    ${d()}
+
+    ${a()}
+
   </main>
 
   ${t()}
 
-`,u();
+`,f(),o();

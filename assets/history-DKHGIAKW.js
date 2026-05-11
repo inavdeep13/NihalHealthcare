@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-DsHi3vbS.js";import{t as i}from"./navbarAnimation-BR7tm-1W.js";import{t as a}from"./navbarFunctionality-BGR2sRVx.js";import{t as o}from"./footerAnimation-CKRST3xT.js";var s=[{year:`2007`,title:`Company Founded`,desc:`Nihal Healthcare was established with a mission to provide advanced sterile medical disposable products.`},{year:`2009`,title:`ISO 9001 Certification`,desc:`Achieved ISO 9001 certification to strengthen quality management systems.`},{year:`2010`,title:`International Expansion`,desc:`Expanded healthcare product supply across India and Brazil markets.`},{year:`2011`,title:`EN ISO 13485 & CE Certified`,desc:`Received international certifications for healthcare manufacturing excellence.`},{year:`2012`,title:`Contract Manufacturing`,desc:`Started manufacturing for Lifelong Meditech Gurgaon under export operations.`},{year:`2014`,title:`Government Supply Operations`,desc:`Started supplying products to Tamil Nadu Medical Services Corporation.`},{year:`2016`,title:`Expanded Product Portfolio`,desc:`Started manufacturing insulin syringes and IV infusion sets.`},{year:`2018 - 2023`,title:`Major Healthcare Supply Growth`,desc:`Supplied products to hospitals, pharma companies, and government healthcare sectors.`},{year:`2024`,title:`BIS Certification`,desc:`Achieved BIS mark certification as per IS 10258:2022 standards.`}],c=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./ScrollTrigger-DcOsuaeI.js";import{t as i}from"./navbarAnimation-BhJmf4Gt.js";import{t as a}from"./navbarFunctionality-1IJDOINF.js";import{t as o}from"./footerAnimation-DT9-Xdut.js";import{n as s,t as c}from"./whatsappButtonFunctionality-BKKGEkSk.js";var l=[{year:`2007`,title:`Company Founded`,desc:`Nihal Healthcare was established with a mission to provide advanced sterile medical disposable products.`},{year:`2009`,title:`ISO 9001 Certification`,desc:`Achieved ISO 9001 certification to strengthen quality management systems.`},{year:`2010`,title:`International Expansion`,desc:`Expanded healthcare product supply across India and Brazil markets.`},{year:`2011`,title:`EN ISO 13485 & CE Certified`,desc:`Received international certifications for healthcare manufacturing excellence.`},{year:`2012`,title:`Contract Manufacturing`,desc:`Started manufacturing for Lifelong Meditech Gurgaon under export operations.`},{year:`2014`,title:`Government Supply Operations`,desc:`Started supplying products to Tamil Nadu Medical Services Corporation.`},{year:`2016`,title:`Expanded Product Portfolio`,desc:`Started manufacturing insulin syringes and IV infusion sets.`},{year:`2018 - 2023`,title:`Major Healthcare Supply Growth`,desc:`Supplied products to hospitals, pharma companies, and government healthcare sectors.`},{year:`2024`,title:`BIS Certification`,desc:`Achieved BIS mark certification as per IS 10258:2022 standards.`}],u=()=>`
 
     <section class="timeline-section py-20 md:py-24 lg:py-32 bg-stone-50 overflow-hidden">
 
@@ -22,7 +22,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
           <!-- Timeline Items -->
           <div class="space-y-16 md:space-y-28">
 
-            ${s.map((e,t)=>`
+            ${l.map((e,t)=>`
 
               <div class="timeline-card relative">
 
@@ -192,7 +192,7 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
     </section>
 
-  `;n.registerPlugin(r);var l=()=>{window.innerWidth>=1024&&(n.from(`.history-hero h1`,{y:100,opacity:0,duration:1.2,ease:`power4.out`}),n.from(`.history-hero p`,{y:60,opacity:0,duration:1,delay:.3}),n.utils.toArray(`.timeline-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:120,duration:1,ease:`power4.out`,scrollTrigger:{trigger:e,start:`top 85%`}})}))},u=()=>`
+  `;n.registerPlugin(r);var d=()=>{window.innerWidth>=1024&&(n.from(`.history-hero h1`,{y:100,opacity:0,duration:1.2,ease:`power4.out`}),n.from(`.history-hero p`,{y:60,opacity:0,duration:1,delay:.3}),n.utils.toArray(`.timeline-card`).forEach((e,t)=>{n.from(e,{opacity:0,y:120,duration:1,ease:`power4.out`,scrollTrigger:{trigger:e,start:`top 85%`}})}))},f=()=>`
 
     <section class="
       history-hero-section
@@ -262,10 +262,12 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{n,t as r}from"./ScrollTrigger-
 
   ${e()}
 
-  ${u()}
+  ${f()}
 
-  ${c()}
+  ${u()}
 
   ${t()}
 
-`,i(),a(),l(),o();
+  ${s()}
+
+`,i(),a(),d(),o(),c();

@@ -1,4 +1,4 @@
-import{t as e}from"./blogsData-C6TPfYty.js";var t=(t=null,n=!0,r=!1)=>`
+import{t as e}from"./blogsData-DWuZGbo8.js";var t=(t=null,n=!0,r=!1)=>`
 
     <section class="
       blogs-grid-section

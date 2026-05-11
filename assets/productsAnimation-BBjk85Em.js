@@ -1,12 +1,12 @@
-import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";import{n,r,t as i}from"./product-3-BgV-0UnQ.js";var a=[{id:1,title:`Disposable Syringes`,desc:`High precision sterile disposable syringes manufactured with advanced healthcare safety standards.`,image:r,link:`./disposable-syringes.html`},{id:2,title:`Insulin Syringes`,desc:`Reliable insulin syringes delivering precision dosage and enhanced patient comfort.`,image:i,link:`./insulin-syringes.html`},{id:3,title:`Safety Syringes`,desc:`Engineered safety syringes designed for infection prevention and safe medical handling.`,image:n,link:`./safety-syringes.html`}],o=()=>`
+import{n as e,t}from"./ScrollTrigger-DcOsuaeI.js";import{n,r,t as i}from"./product-3-Bgn8eNJ1.js";var a=[{id:1,title:`Disposable Syringes`,desc:`High precision sterile disposable syringes manufactured with advanced healthcare safety standards.`,image:r,link:`./disposable-syringes.html`},{id:2,title:`Insulin Syringes`,desc:`Reliable insulin syringes delivering precision dosage and enhanced patient comfort.`,image:i,link:`./insulin-syringes.html`},{id:3,title:`Safety Syringes`,desc:`Engineered safety syringes designed for infection prevention and safe medical handling.`,image:n,link:`./safety-syringes.html`}],o=()=>`
 
-    <section class="products-section py-20 bg-white">
+    <section class="products-section py-12 bg-white">
 
       <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 
         <!-- Section Header -->
 
-        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12 md:mb-16">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
 
           <div>
 

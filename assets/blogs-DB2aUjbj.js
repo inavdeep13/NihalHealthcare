@@ -1,8 +1,7 @@
-import{n as e,t}from"./footer-CFQfVVDl.js";import{t as n}from"./footerAnimation-CKRST3xT.js";import{t as r}from"./blogsGrid-D9i9JFFe.js";var i=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{t as n}from"./footerAnimation-DT9-Xdut.js";import{t as r}from"./blogsGrid-CyuVD7-q.js";import{n as i,t as a}from"./whatsappButtonFunctionality-BKKGEkSk.js";var o=()=>`
 
     <section class="
       pt-32
-      pb-12
       bg-white
       overflow-hidden
     ">
@@ -66,12 +65,13 @@ import{n as e,t}from"./footer-CFQfVVDl.js";import{t as n}from"./footerAnimation-
 
   <main>
 
-    ${i()}
+    ${o()}
 
     ${r(null,!1,!1)}
 
   </main>
 
   ${t()}
+  ${i()}
 
-`,n();
+`,n(),a();

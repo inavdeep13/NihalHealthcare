@@ -97,6 +97,18 @@
               </li>
 
               <li>
+                <a href="./feedback.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                  Feedback
+                </a>
+              </li>
+
+              <li>
+                <a href="./leadership.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                  Leadership
+                </a>
+              </li>
+
+              <li>
                 <a href="./history.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   History
                 </a>
@@ -564,7 +576,7 @@
               </a>
 
               <a
-                href="mailto:nihalhealth2012@gmail.com"
+                href="mailto:contact@nihalhealthcare.com"
                 class="
                   block
                   hover:text-cyan-400
@@ -574,7 +586,7 @@
                 "
               >
 
-                nihalhealth2012@gmail.com
+                contact@nihalhealthcare.com
 
               </a>
 

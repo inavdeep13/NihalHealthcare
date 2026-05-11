@@ -1,4 +1,4 @@
-import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets/certificate-1-DZ_FKYtk.jpg`,r=`/NihalHealthcare/assets/certificate-2-fDzzzH5o.jpg`,i=`/NihalHealthcare/assets/certificate-3-tdOhh4f8.jpg`,a=[{title:`CE Certification`,desc:`European healthcare manufacturing compliance certification.`,image:n,file:`/NihalHealthcare/assets/551118%20-%20NIHAL%20HEALTHCARE%20-%20CERTIFICATE%20-%20englisch%20-%202025-04-07%20-%20MDR2017Q-BTzFblqy.pdf`},{title:`ISO 9001 Certification`,desc:`International quality management systems certification.`,image:r,file:`/NihalHealthcare/assets/ISO%209001-2015%20RENUAL%202023%20(1)-DERNB-ro.PDF`},{title:`GMP Certification`,desc:`Good Manufacturing Practice certified operations.`,image:i,file:`/NihalHealthcare/assets/icmed%2013485%20%20renewal-DZKG69oA.pdf`},{title:`BIS Licence`,desc:`Indian standards certification for syringe manufacturing.`,image:n,file:`/NihalHealthcare/assets/BIS%20LICENCE-D7z3pIG8.pdf`},{title:`EN ISO 13485`,desc:`Medical devices quality management certification.`,image:r,file:`/NihalHealthcare/assets/En%20ISO%2013485%20latestr-DSeHlwr5.PDF`},{title:`Drug Licence`,desc:`Certified healthcare manufacturing drug licence approval.`,image:i,file:`/NihalHealthcare/assets/NEW%20DRUG%20LICENCE-C0wTP-Lg.PDF`},{title:`GST Registration`,desc:`Official GST registration certification.`,image:n,file:`/NihalHealthcare/assets/GST%20-%20Copy-CO-8F2JU.PDF`}],o=(e=null,t=!0,n=!1)=>`
+import{n as e,t}from"./ScrollTrigger-DcOsuaeI.js";var n=[{title:`CE Certification`,desc:`European healthcare manufacturing compliance certification.`,image:`/NihalHealthcare/assets/certificate1-CnNUYaHI.png`,file:`/NihalHealthcare/assets/551118%20-%20NIHAL%20HEALTHCARE%20-%20CERTIFICATE%20-%20englisch%20-%202025-04-07%20-%20MDR2017Q-BTzFblqy.pdf`},{title:`ISO 9001 Certification`,desc:`International quality management systems certification.`,image:`/NihalHealthcare/assets/certificate2-CDUourpJ.png`,file:`/NihalHealthcare/assets/ISO%209001-2015%20RENUAL%202023%20(1)-DERNB-ro.PDF`},{title:`GMP Certification`,desc:`Good Manufacturing Practice certified operations.`,image:`/NihalHealthcare/assets/certificate3-y1lbBD7a.png`,file:`/NihalHealthcare/assets/icmed%2013485%20%20renewal-DZKG69oA.pdf`},{title:`BIS Licence`,desc:`Indian standards certification for syringe manufacturing.`,image:`/NihalHealthcare/assets/certificate4-Bv3_BT2k.png`,file:`/NihalHealthcare/assets/BIS%20LICENCE-D7z3pIG8.pdf`},{title:`EN ISO 13485`,desc:`Medical devices quality management certification.`,image:`/NihalHealthcare/assets/certificate5-Dfk2KdaF.png`,file:`/NihalHealthcare/assets/En%20ISO%2013485%20latestr-DSeHlwr5.PDF`},{title:`Drug Licence`,desc:`Certified healthcare manufacturing drug licence approval.`,image:`/NihalHealthcare/assets/certificate6-B1vNl2IP.png`,file:`/NihalHealthcare/assets/NEW%20DRUG%20LICENCE-C0wTP-Lg.PDF`},{title:`GST Registration`,desc:`Official GST registration certification.`,image:`/NihalHealthcare/assets/certificate7-CU1mhAPc.png`,file:`/NihalHealthcare/assets/GST%20-%20Copy-CO-8F2JU.PDF`}],r=(e=null,t=!0,r=!1)=>`
 
     <section class="
       certifications-grid-section
@@ -60,7 +60,7 @@ import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets
 
               </div>
 
-              ${n?`
+              ${r?`
 
                   <!-- BUTTON -->
                   <a
@@ -99,7 +99,7 @@ import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets
           lg:gap-8
         ">
 
-          ${(e?a.slice(0,e):a).map(e=>`
+          ${(e?n.slice(0,e):n).map(e=>`
 
             <a
               href="${e.file}"
@@ -124,7 +124,6 @@ import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets
               <!-- IMAGE -->
               <div class="
                 overflow-hidden
-                bg-slate-100
               ">
 
                 <img
@@ -133,7 +132,7 @@ import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets
                   class="
                     w-full
                     h-[200px]
-                    sm:h-[220px]
+                    sm:h-[420px]
                     object-contain
                     p-4
                     group-hover:scale-105
@@ -213,4 +212,4 @@ import{n as e,t}from"./ScrollTrigger-DsHi3vbS.js";var n=`/NihalHealthcare/assets
 
     </section>
 
-  `;e.registerPlugin(t);var s=()=>{window.innerWidth>=1024&&e.utils.toArray(`.certification-card`).forEach((t,n)=>{e.from(t,{opacity:0,y:30,scale:.96,duration:.7,ease:`power2.out`,scrollTrigger:{trigger:t,start:`top 88%`}})})};export{o as n,s as t};
+  `;e.registerPlugin(t);var i=()=>{window.innerWidth>=1024&&e.utils.toArray(`.certification-card`).forEach((t,n)=>{e.from(t,{opacity:0,y:30,scale:.96,duration:.7,ease:`power2.out`,scrollTrigger:{trigger:t,start:`top 88%`}})})};export{r as n,i as t};
