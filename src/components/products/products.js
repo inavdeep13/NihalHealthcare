@@ -4,13 +4,13 @@ export const products = () => {
 
   return `
 
-    <section class="products-section py-20 bg-white">
+    <section class="products-section py-12 bg-white">
 
       <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
 
         <!-- Section Header -->
 
-        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12 md:mb-16">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
 
           <div>
 

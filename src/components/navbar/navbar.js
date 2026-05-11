@@ -102,6 +102,18 @@ export const navbar = () => {
               </li>
 
               <li>
+                <a href="./feedback.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                  Feedback
+                </a>
+              </li>
+
+              <li>
+                <a href="./leadership.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
+                  Leadership
+                </a>
+              </li>
+
+              <li>
                 <a href="./history.html" class="text-[15px] font-semibold text-slate-700 hover:text-blue-600 transition-all">
                   History
                 </a>

@@ -7,6 +7,8 @@ import { timeline } from './components/timeline/timeline'
 import { timelineAnimation } from './components/timeline/timelineAnimation'
 import { timelineHero } from './components/timeline/timelineHero'
 import './style.css'
+import { whatsappButton } from './components/whatsapp/whatsappButton'
+import { whatsappButtonFunctionality } from './components/whatsapp/whatsappButtonFunctionality'
 
 
 
@@ -20,6 +22,8 @@ document.querySelector("#app").innerHTML = `
 
   ${footer()}
 
+  ${whatsappButton()}
+
 `
 
 navbarAnimation()
@@ -28,3 +32,4 @@ navbarFunctionality()
 timelineAnimation()
 
 footerAnimation()
+whatsappButtonFunctionality()

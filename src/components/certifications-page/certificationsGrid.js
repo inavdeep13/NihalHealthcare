@@ -143,7 +143,6 @@ export const certificationsGrid = (
               <!-- IMAGE -->
               <div class="
                 overflow-hidden
-                bg-slate-100
               ">
 
                 <img
@@ -152,7 +151,7 @@ export const certificationsGrid = (
                   class="
                     w-full
                     h-[200px]
-                    sm:h-[220px]
+                    sm:h-[420px]
                     object-contain
                     p-4
                     group-hover:scale-105

@@ -14,6 +14,8 @@ import { aboutWhyUs } from './components/about/aboutWhyUs'
 
 import { aboutCTA } from './components/about/aboutCTA'
 import { aboutAnimation } from './components/about/aboutAnimation'
+import { whatsappButton } from './components/whatsapp/whatsappButton'
+import { whatsappButtonFunctionality } from './components/whatsapp/whatsappButtonFunctionality'
 
 document.querySelector('#app').innerHTML = `
 
@@ -31,6 +33,8 @@ document.querySelector('#app').innerHTML = `
 
     ${aboutCTA()}
 
+    ${ whatsappButton() }
+
   </main>
 
   ${footer()}
@@ -38,3 +42,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 aboutAnimation()
+whatsappButtonFunctionality()

@@ -1,23 +1,64 @@
 import { leadershipData } from './leadershipData'
 
-export const leadership = () => {
+export const leadership = (
+
+  limit = null,
+
+  showViewAll = false,
+
+  fullDetails = false
+
+) => {
+
+  const leaders = limit
+    ? leadershipData.slice(0, limit)
+    : leadershipData
 
   return `
 
-    <section class="leadership-section py-16 bg-[#f5f5f5] overflow-hidden">
+    <section class="
+      leadership-section
+      py-20
+      md:py-28
+      bg-stone-50
+      overflow-hidden
+    ">
 
-      <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+      <div class="
+        max-w-7xl
+        mx-auto
+        px-4
+        md:px-6
+        lg:px-8
+      ">
 
-        <!-- Heading -->
-        <div class="text-center mb-10">
+        <!-- HEADING -->
+        <div class="
+          text-center
+          max-w-3xl
+          mx-auto
+        ">
 
-          <span class="text-cyan-500 font-semibold uppercase tracking-[0.2em] text-xs sm:text-sm">
+          <span class="
+            text-cyan-500
+            font-semibold
+            uppercase
+            tracking-[0.25em]
+            text-xs
+            sm:text-sm
+          ">
 
             Leadership
 
           </span>
 
-          <h2 class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900">
+          <h2 class="
+            mt-5
+            text-4xl
+            font-bold
+            text-slate-900
+            leading-tight
+          ">
 
             Thought Leaders
 
@@ -25,52 +66,171 @@ export const leadership = () => {
 
         </div>
 
-        <!-- Leadership Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <!-- GRID -->
+        <div class="
+          mt-10
 
-          ${leadershipData.map((leader, index) => `
+          ${fullDetails
+            ? 'space-y-10'
+            : 'grid md:grid-cols-2 xl:grid-cols-3 gap-12'
+          }
+        ">
 
-            <div
-              class="leader-card relative flex flex-col items-center text-center px-8 py-10"
-            >
+          ${leaders.map(item => `
 
-              <!-- Border -->
-              ${index !== leadershipData.length - 1 ? `
+            <div class="
+              leadership-card
+              relative
 
-                <div class="hidden xl:block absolute top-1/2 -translate-y-1/2 right-0 w-px h-[220px] bg-slate-300"></div>
+              ${fullDetails
+                ? `
+                  grid
+                  lg:grid-cols-[260px_1fr]
+                  gap-10
+                  items-center
+                  bg-white
+                  border
+                  border-slate-200
+                  rounded-[32px]
+                  p-8
+                  lg:p-12
+                  shadow-sm
+                  text-left
+                `
+                : `
+                  text-center
+                `
+              }
+            ">
+
+              ${!fullDetails ? `
+
+                <!-- LINE -->
+                <div class="
+                  hidden
+                  xl:block
+                  absolute
+                  top-10
+                  right-[-24px]
+                  w-[1px]
+                  h-[330px]
+                  bg-slate-300
+                "></div>
 
               ` : ''}
 
-              <!-- Image -->
-              <div class="w-[170px] h-[170px] rounded-full overflow-hidden border-4 border-white shadow-xl">
+              <!-- IMAGE -->
+              <div class="
+                flex
+                justify-center
+
+                ${fullDetails
+                  ? 'lg:justify-start'
+                  : ''
+                }
+              ">
 
                 <img
-                  src="${leader.image}"
-                  alt="${leader.name}"
-                  class="w-full h-full object-cover"
+                  src="${item.image}"
+                  alt="${item.name}"
+                  class="
+                    w-[220px]
+                    h-[220px]
+                    rounded-full
+                    object-cover
+                    border-[6px]
+                    border-white
+                    shadow-xl
+                  "
                 />
 
               </div>
 
-              <!-- Name -->
-              <h3 class="mt-8 text-2xl font-bold text-slate-900">
+              <!-- CONTENT -->
+              <div>
 
-                ${leader.name}
+                <h3 class="
+                  text-3xl
+                  md:text-4xl
+                  font-bold
+                  text-slate-900
+                ">
 
-              </h3>
+                  ${item.name}
 
-              <!-- Designation -->
-              <p class="mt-3 text-cyan-500 font-semibold text-sm uppercase tracking-wider">
+                </h3>
 
-                ${leader.designation}
+                <p class="
+                  mt-4
+                  text-cyan-500
+                  uppercase
+                  tracking-[0.08em]
+                  text-lg
+                  font-medium
+                ">
 
-              </p>
+                  ${item.role}
+
+                </p>
+
+                ${fullDetails ? `
+
+                  <p class="
+                    mt-6
+                    text-slate-600
+                    leading-relaxed
+                    text-base
+                    md:text-lg
+                  ">
+
+                    ${item.desc}
+
+                  </p>
+
+                ` : ''}
+
+              </div>
 
             </div>
 
           `).join('')}
 
         </div>
+
+        ${showViewAll ? `
+
+          <div class="
+            mt-16
+            flex
+            justify-center
+          ">
+
+            <a
+              href="./leadership.html"
+              class="
+                inline-flex
+                items-center
+                justify-center
+                bg-slate-900
+                hover:bg-cyan-500
+                text-white
+                px-8
+                py-4
+                rounded-full
+                text-sm
+                font-semibold
+                transition-all
+                duration-300
+              "
+            >
+
+              View Full Leadership
+
+            </a>
+
+          </div>
+
+        ` : ''}
 
       </div>
 

@@ -1,9 +1,10 @@
-export const blogHero = () => {
+export const feedbackHero = () => {
 
   return `
 
     <section class="
       pt-32
+      pb-16
       bg-white
       overflow-hidden
     ">
@@ -25,7 +26,7 @@ export const blogHero = () => {
           sm:text-sm
         ">
 
-          Blogs & Insights
+          Client Feedback
 
         </span>
 
@@ -38,7 +39,7 @@ export const blogHero = () => {
           max-w-5xl
         ">
 
-          Healthcare Articles, Manufacturing Insights & Innovation
+          Trusted Healthcare Manufacturing Experience
 
         </h1>
 
@@ -50,10 +51,9 @@ export const blogHero = () => {
           max-w-3xl
         ">
 
-          Explore healthcare manufacturing,
-          sterile medical production,
-          innovation, and certified quality
-          systems through our latest articles.
+          Explore feedback, healthcare experiences,
+          and trusted manufacturing partnerships
+          from clients and healthcare professionals.
 
         </p>
 

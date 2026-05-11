@@ -24,13 +24,16 @@ import { aboutPreview } from './components/about/aboutPreview'
 import { feedback } from './components/feedback/feedback'
 import { feedbackFunctionality } from './components/feedback/feedbackFunctionality'
 import { blogsAnimation } from './components/blogs/blogsAnimation'
+import { whatsappButton } from './components/whatsapp/whatsappButton'
+import { whatsappButtonFunctionality } from './components/whatsapp/whatsappButtonFunctionality'
 
 document.querySelector("#app").innerHTML = `
   ${navbar()}
   ${hero()}
+  ${whatsappButton()}
   ${products()}
   ${aboutPreview()}
-  ${leadership()}
+  ${leadership(3, true, false)}
   ${testimonials()}
   ${certificationsGrid(3, true, true)}
   ${blogsGrid(3, true, true)}
@@ -53,3 +56,4 @@ contactCtaAnimation()
 footerAnimation()
 feedbackFunctionality()
 blogsAnimation()
+whatsappButtonFunctionality()

@@ -4,6 +4,8 @@ import { footer } from './components/footer/footer'
 import { footerAnimation } from './components/footer/footerAnimation'
 import { navbar } from './components/navbar/navbar'
 import './style.css'
+import { whatsappButton } from './components/whatsapp/whatsappButton'
+import { whatsappButtonFunctionality } from './components/whatsapp/whatsappButtonFunctionality'
 
 
 document.querySelector('#app').innerHTML = `
@@ -19,7 +21,9 @@ document.querySelector('#app').innerHTML = `
   </main>
 
   ${footer()}
+  ${ whatsappButton()}
 
 `
 
 footerAnimation()
+whatsappButtonFunctionality()

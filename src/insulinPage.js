@@ -13,6 +13,8 @@ import { productSpecifications } from './components/product-detail/productSpecif
 import { productSizes } from './components/product-detail/productSizes'
 
 import { productRegulatory } from './components/product-detail/productRegulatory'
+import { whatsappButton } from './components/whatsapp/whatsappButton'
+import { whatsappButtonFunctionality } from './components/whatsapp/whatsappButtonFunctionality'
 
 const product = productData.insulin
 
@@ -30,8 +32,12 @@ document.querySelector('#app').innerHTML = `
 
     ${productRegulatory(product)}
 
+    ${whatsappButton()}
+
   </main>
 
   ${footer()}
 
 `
+
+whatsappButtonFunctionality()

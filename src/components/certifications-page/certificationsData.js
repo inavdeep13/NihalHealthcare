@@ -1,6 +1,10 @@
-import certificate1 from '../../assets/images/certificates/certificate-1.jpg'
-import certificate2 from '../../assets/images/certificates/certificate-2.jpg'
-import certificate3 from '../../assets/images/certificates/certificate-3.jpg'
+import certificate1 from '../../assets/images/certificates/certificate1.png'
+import certificate2 from '../../assets/images/certificates/certificate2.png'
+import certificate3 from '../../assets/images/certificates/certificate3.png'
+import certificate4 from '../../assets/images/certificates/certificate4.png'
+import certificate5 from '../../assets/images/certificates/certificate5.png'
+import certificate6 from '../../assets/images/certificates/certificate6.png'
+import certificate7 from '../../assets/images/certificates/certificate7.png'
 
 import cePdf from '../../assets/images/certificates/551118 - NIHAL HEALTHCARE - CERTIFICATE - englisch - 2025-04-07 - MDR2017Q.pdf'
 import bisPdf from '../../assets/images/certificates/BIS LICENCE.pdf'
@@ -36,28 +40,28 @@ export const certificationsData = [
   {
     title: "BIS Licence",
     desc: "Indian standards certification for syringe manufacturing.",
-    image: certificate1,
+    image: certificate4,
     file: bisPdf,
   },
 
   {
     title: "EN ISO 13485",
     desc: "Medical devices quality management certification.",
-    image: certificate2,
+    image: certificate5,
     file: iso13485Pdf,
   },
 
   {
     title: "Drug Licence",
     desc: "Certified healthcare manufacturing drug licence approval.",
-    image: certificate3,
+    image: certificate6,
     file: drugPdf,
   },
 
   {
     title: "GST Registration",
     desc: "Official GST registration certification.",
-    image: certificate1,
+    image: certificate7,
     file: gstPdf,
   },
 

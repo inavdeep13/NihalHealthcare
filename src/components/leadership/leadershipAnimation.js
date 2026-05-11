@@ -1,28 +1,31 @@
-import gsap from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import gsap from 'gsap'
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
 export const leadershipAnimation = () => {
 
-  // Desktop Only
-  if(window.innerWidth >= 1024){
+  gsap.from('.leadership-card', {
 
-    gsap.from(".leader-card", {
+    scrollTrigger: {
 
-      y: 80,
-      opacity: 0,
-      stagger: 0.2,
-      duration: 1,
-      ease: "power4.out",
+      trigger: '.leadership-section',
 
-      scrollTrigger: {
-        trigger: ".leadership-section",
-        start: "top 75%",
-      },
+      start: 'top 80%',
 
-    })
+    },
 
-  }
+    opacity: 0,
+
+    y: 80,
+
+    stagger: 0.2,
+
+    duration: 1,
+
+    ease: 'power3.out',
+
+  })
 
 }

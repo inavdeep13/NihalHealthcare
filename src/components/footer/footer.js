@@ -314,7 +314,7 @@ export const footer = () => {
               </a>
 
               <a
-                href="mailto:nihalhealth2012@gmail.com"
+                href="mailto:contact@nihalhealthcare.com"
                 class="
                   block
                   hover:text-cyan-400
@@ -324,7 +324,7 @@ export const footer = () => {
                 "
               >
 
-                nihalhealth2012@gmail.com
+                contact@nihalhealthcare.com
 
               </a>
 
