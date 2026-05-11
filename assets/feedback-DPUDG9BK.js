@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./feedback-DE0IdV2P.js";import{n as i,t as a}from"./whatsappButtonFunctionality-BKKGEkSk.js";var o=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./feedback-DE0IdV2P.js";import{n as i,t as a}from"./whatsappButtonFunctionality-DS5K8E5C.js";var o=()=>`
 
     <section class="
       pt-32

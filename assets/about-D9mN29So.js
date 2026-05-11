@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./ScrollTrigger-DcOsuaeI.js";import{t as i}from"./about-DCy0HzdF.js";import{n as a,t as o}from"./whatsappButtonFunctionality-BKKGEkSk.js";var s=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{n,t as r}from"./ScrollTrigger-DcOsuaeI.js";import{t as i}from"./about-DCy0HzdF.js";import{n as a,t as o}from"./whatsappButtonFunctionality-DS5K8E5C.js";var s=()=>`
 
     <section class="
       py-20

@@ -1,4 +1,4 @@
-import{n as e,t}from"./footer-CMRAvnX5.js";import{t as n}from"./navbarAnimation-BhJmf4Gt.js";import{t as r}from"./navbarFunctionality-1IJDOINF.js";import{t as i}from"./footerAnimation-DT9-Xdut.js";import{n as a,t as o}from"./whatsappButtonFunctionality-BKKGEkSk.js";var s=()=>`
+import{n as e,t}from"./footer-CMRAvnX5.js";import{t as n}from"./navbarAnimation-BhJmf4Gt.js";import{t as r}from"./navbarFunctionality-1IJDOINF.js";import{t as i}from"./footerAnimation-DT9-Xdut.js";import{n as a,t as o}from"./whatsappButtonFunctionality-DS5K8E5C.js";var s=()=>`
 
     <section class="contact-page pt-36 pb-20 md:pb-24 lg:pb-28 bg-stone-50 overflow-hidden">
 
